@@ -1,0 +1,164 @@
+{
+ "achievements": [
+  {
+   "id": "first_word",
+   "title": "اولین کلمه",
+   "desc": "اولین کلمه‌ات را پیدا کن",
+   "type": "words",
+   "goal": 1,
+   "reward": 20
+  },
+  {
+   "id": "words_50",
+   "title": "واژه‌باز",
+   "desc": "۵۰ کلمه پیدا کن",
+   "type": "words",
+   "goal": 50,
+   "reward": 60
+  },
+  {
+   "id": "words_200",
+   "title": "واژه‌شناس",
+   "desc": "۲۰۰ کلمه پیدا کن",
+   "type": "words",
+   "goal": 200,
+   "reward": 150
+  },
+  {
+   "id": "words_500",
+   "title": "فرهنگ‌دوست",
+   "desc": "۵۰۰ کلمه پیدا کن",
+   "type": "words",
+   "goal": 500,
+   "reward": 350
+  },
+  {
+   "id": "first_level",
+   "title": "قدم اول",
+   "desc": "اولین مرحله را بگذران",
+   "type": "levels",
+   "goal": 1,
+   "reward": 25
+  },
+  {
+   "id": "levels_10",
+   "title": "راه‌رونده",
+   "desc": "۱۰ مرحله را تمام کن",
+   "type": "levels",
+   "goal": 10,
+   "reward": 80
+  },
+  {
+   "id": "levels_30",
+   "title": "جهان‌گرد",
+   "desc": "۳۰ مرحله را تمام کن",
+   "type": "levels",
+   "goal": 30,
+   "reward": 200
+  },
+  {
+   "id": "levels_60",
+   "title": "راه‌آشنای ایران",
+   "desc": "۶۰ مرحله را تمام کن",
+   "type": "levels",
+   "goal": 60,
+   "reward": 400
+  },
+  {
+   "id": "levels_100",
+   "title": "سفر کامل",
+   "desc": "همه ۱۰۰ مرحله را تمام کن",
+   "type": "levels",
+   "goal": 100,
+   "reward": 1000
+  },
+  {
+   "id": "stars_30",
+   "title": "ستاره‌باران",
+   "desc": "۳۰ ستاره جمع کن",
+   "type": "stars",
+   "goal": 30,
+   "reward": 120
+  },
+  {
+   "id": "stars_100",
+   "title": "آسمان ستاره‌ها",
+   "desc": "۱۰۰ ستاره جمع کن",
+   "type": "stars",
+   "goal": 100,
+   "reward": 300
+  },
+  {
+   "id": "bonus_10",
+   "title": "کنجکاو",
+   "desc": "۱۰ کلمه بونوس پیدا کن",
+   "type": "bonus",
+   "goal": 10,
+   "reward": 50
+  },
+  {
+   "id": "bonus_50",
+   "title": "گنج‌یاب",
+   "desc": "۵۰ کلمه بونوس پیدا کن",
+   "type": "bonus",
+   "goal": 50,
+   "reward": 200
+  },
+  {
+   "id": "word7",
+   "title": "کلمه‌های بلند",
+   "desc": "یک کلمه ۷ حرفی پیدا کن",
+   "type": "word7",
+   "goal": 1,
+   "reward": 100
+  },
+  {
+   "id": "coins_2000",
+   "title": "خزانه‌دار",
+   "desc": "در مجموع ۲۰۰۰ سکه جمع کن",
+   "type": "coins",
+   "goal": 2000,
+   "reward": 150
+  },
+  {
+   "id": "streak_3",
+   "title": "سه روز پیوسته",
+   "desc": "۳ روز پشت‌سرهم وارد بازی شو",
+   "type": "streak",
+   "goal": 3,
+   "reward": 80
+  },
+  {
+   "id": "streak_7",
+   "title": "هفته طلایی",
+   "desc": "۷ روز پشت‌سرهم وارد بازی شو",
+   "type": "streak",
+   "goal": 7,
+   "reward": 250
+  },
+  {
+   "id": "daily_5",
+   "title": "چالش‌باز",
+   "desc": "۵ چالش روزانه را بگذران",
+   "type": "daily",
+   "goal": 5,
+   "reward": 150
+  },
+  {
+   "id": "party_win",
+   "title": "میزبان محبوب",
+   "desc": "یک بازی حالت جمعی را ببر",
+   "type": "party_win",
+   "goal": 1,
+   "reward": 120
+  },
+  {
+   "id": "league_champ",
+   "title": "قهرمان خانواده",
+   "desc": "یک لیگ خانوادگی را ببر",
+   "type": "league_win",
+   "goal": 1,
+   "reward": 200
+  }
+ ]
+}

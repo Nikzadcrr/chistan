@@ -1,0 +1,45 @@
+; Engine configuration file.
+; چیستان — بازی پازل کلمات فارسی
+
+config_version=5
+
+[application]
+
+config/name="چیستان"
+config/description="بازی پازل کلمات فارسی — سفری شعرآمیز میان شهرهای ایران با پدربزرگ"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.984, 0.953, 0.894, 1)
+boot_splash/show_image=false
+config/icon="res://assets/art/icon.png"
+
+[audio]
+
+buses/default_bus_layout="res://theme/default_bus_layout.tres"
+
+[autoload]
+
+Data="*res://scripts/autoload/data.gd"
+Save="*res://scripts/autoload/save.gd"
+Sound="*res://scripts/autoload/sound.gd"
+Game="*res://scripts/autoload/game.gd"
+Router="*res://scripts/autoload/router.gd"
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.984, 0.953, 0.894, 1)
