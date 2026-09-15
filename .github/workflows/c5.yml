@@ -1,0 +1,14 @@
+name: C5 secrets envs only
+on:
+  workflow_dispatch:
+jobs:
+  c5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: secret envs
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          GODOT_ANDROID_KEYSTORE_RELEASE_PATH: /tmp/chistan-release.keystore
+          GODOT_ANDROID_KEYSTORE_RELEASE_USER: ${{ secrets.KEYSTORE_ALIAS_USER }}
+          GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        run: echo "user=${GODOT_ANDROID_KEYSTORE_RELEASE_USER:0:2}**"
