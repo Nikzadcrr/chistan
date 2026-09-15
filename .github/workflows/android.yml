@@ -62,7 +62,20 @@ jobs:
           echo "$KEYSTORE_BASE64" | base64 -d > /tmp/chistan-release.keystore
 
       - name: Godot import
-        run: godot --headless --path . --import
+        run: |
+          godot --headless --path . --import
+          godot --headless --path . --import
+
+      - name: Install Android build template
+        run: godot --headless --path . --install-android-build-template
+
+      - name: Generate debug keystore (for debug APK)
+        run: |
+          mkdir -p ~/.android
+          keytool -genkeypair -v -keystore ~/.android/debug.keystore \
+            -storepass android -alias androiddebugkey -keypass android \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -dname "CN=Android Debug,O=Android,C=US"
 
       - name: Export debug APK
         env:

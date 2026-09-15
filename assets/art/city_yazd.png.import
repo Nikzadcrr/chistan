@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3s5fc2mfxx5b"
-valid=false
+uid="uid://drj2e56p0mbh0"
+path="res://.godot/imported/city_yazd.png-7b1c73cd8928ba1ec2e1e34250cccfbb.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/art/city_yazd.png"
+dest_files=["res://.godot/imported/city_yazd.png-7b1c73cd8928ba1ec2e1e34250cccfbb.ctex"]
 
 [params]
 

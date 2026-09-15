@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj75ysj2dmdrc"
-valid=false
+uid="uid://ddmbsj6w7nor8"
+path="res://.godot/imported/grand_celebrate.png-9369254885911c317f0ec721663a30bb.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/art/grand_celebrate.png"
+dest_files=["res://.godot/imported/grand_celebrate.png-9369254885911c317f0ec721663a30bb.ctex"]
 
 [params]
 

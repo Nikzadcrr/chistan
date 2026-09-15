@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://p1kdk85lljwe"
-valid=false
+uid="uid://d3dxumxqsqiin"
+path="res://.godot/imported/ic_chest.png-421f14b11d46e1d6819de37663897688.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/art/ic_chest.png"
+dest_files=["res://.godot/imported/ic_chest.png-421f14b11d46e1d6819de37663897688.ctex"]
 
 [params]
 

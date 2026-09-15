@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6vfu4n8vb1pr"
-valid=false
+uid="uid://bo3ova61u3l7o"
+path="res://.godot/imported/city_mashhad.png-18887d90bf1b023ced2c284500249ca2.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/art/city_mashhad.png"
+dest_files=["res://.godot/imported/city_mashhad.png-18887d90bf1b023ced2c284500249ca2.ctex"]
 
 [params]
 

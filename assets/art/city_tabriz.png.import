@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxvmx4c4ck1ub"
-valid=false
+uid="uid://bwn51luqt3c7n"
+path="res://.godot/imported/city_tabriz.png-c9a2958735471629cad4e875e746f3f5.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/art/city_tabriz.png"
+dest_files=["res://.godot/imported/city_tabriz.png-c9a2958735471629cad4e875e746f3f5.ctex"]
 
 [params]
 

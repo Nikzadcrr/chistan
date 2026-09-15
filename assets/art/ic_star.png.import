@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0t7602sa33gu"
-valid=false
+uid="uid://c2s7fhrhnoyij"
+path="res://.godot/imported/ic_star.png-69277965ede7d1da7c47d0fa1ed5c059.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/art/ic_star.png"
+dest_files=["res://.godot/imported/ic_star.png-69277965ede7d1da7c47d0fa1ed5c059.ctex"]
 
 [params]
 

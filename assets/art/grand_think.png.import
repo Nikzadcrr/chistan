@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bg3s0ypd08ei2"
-valid=false
+uid="uid://dmvwepuggk4do"
+path="res://.godot/imported/grand_think.png-c925c6d85867de4c46b94c2335cbd8fa.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/art/grand_think.png"
+dest_files=["res://.godot/imported/grand_think.png-c925c6d85867de4c46b94c2335cbd8fa.ctex"]
 
 [params]
 
