@@ -78,10 +78,7 @@ jobs:
           godot --headless --path . --import
           godot --headless --path . --import
 
-      - name: Install Android build template
-        run: godot --headless --path . --install-android-build-template
-
-      - name: Generate debug keystore (for debug APK)
+      - name: Generate debug keystore
         run: |
           mkdir -p ~/.android
           keytool -genkeypair -v -keystore ~/.android/debug.keystore \
@@ -89,14 +86,14 @@ jobs:
             -keyalg RSA -keysize 2048 -validity 10000 \
             -dname "CN=Android Debug,O=Android,C=US"
 
-      - name: Export debug APK
+      - name: Export debug APK (installs Android build template)
         env:
           GODOT_ANDROID_KEYSTORE_DEBUG_PATH: ""
           GODOT_ANDROID_KEYSTORE_DEBUG_USER: ""
           GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD: ""
         run: |
           mkdir -p build
-          godot --headless --path . --export-debug "Android APK" build/chistan-debug.apk
+          godot --headless --path . --install-android-build-template --export-debug "Android APK" build/chistan-debug.apk
 
       - name: Export release APK
         env:
