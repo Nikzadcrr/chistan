@@ -49,12 +49,22 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Prepare Android SDK
+      - name: Set up Android SDK
         run: |
           echo "ANDROID_HOME=$ANDROID_HOME"
-          sdkmanager --version
-          yes | sdkmanager --licenses > /dev/null 2>&1 || true
-          sdkmanager --install "platform-tools" "build-tools;34.0.0" "platforms;android-34" > /dev/null 2>&1 || true
+          # یافتن یا نصب sdkmanager
+          SDKM=$(ls "$ANDROID_HOME"/cmdline-tools/*/bin/sdkmanager 2>/dev/null | head -1 || true)
+          if [ -z "$SDKM" ]; then
+            echo "دانلود cmdline-tools..."
+            curl -sSL --retry 3 -o /tmp/clt.zip "https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip"
+            mkdir -p "$ANDROID_HOME/cmdline-tools"
+            unzip -q /tmp/clt.zip -d "$ANDROID_HOME/cmdline-tools"
+            mv "$ANDROID_HOME/cmdline-tools/cmdline-tools" "$ANDROID_HOME/cmdline-tools/latest"
+            SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          fi
+          echo "sdkmanager: $SDKM"
+          yes | "$SDKM" --licenses > /dev/null 2>&1 || true
+          "$SDKM" --install "platform-tools" "build-tools;34.0.0" "platforms;android-34" > /dev/null 2>&1 || true
           echo "Android SDK آماده است"
 
       - name: Decode release keystore
