@@ -1,0 +1,88 @@
+{
+ "cities": [
+  {
+   "id": 0,
+   "name": "شیراز",
+   "levels": [
+    1,
+    16
+   ],
+   "tagline": "شهر شعر و گلابه؛ حافظ و سعدی اینجا نفس می‌کشند.",
+   "color": "#D95A7E",
+   "color2": "#4E9A51",
+   "bg": "city_shiraz",
+   "music": "shiraz",
+   "motif": "گل و بلبل"
+  },
+  {
+   "id": 1,
+   "name": "اصفهان",
+   "levels": [
+    17,
+    33
+   ],
+   "tagline": "نصف جهان؛ گنبدهای فیروزه‌ای زیر آسمان کرم.",
+   "color": "#2FA8A0",
+   "color2": "#E8862E",
+   "bg": "city_esfahan",
+   "music": "esfahan",
+   "motif": "کاشی و گنبد"
+  },
+  {
+   "id": 2,
+   "name": "یزد",
+   "levels": [
+    34,
+    50
+   ],
+   "tagline": "شهر بادگیرها و خشت خام؛ آفتابش گرم‌تر از چای است.",
+   "color": "#C98A3B",
+   "color2": "#D95A4E",
+   "bg": "city_yazd",
+   "music": "yazd",
+   "motif": "بادگیر و آفتاب"
+  },
+  {
+   "id": 3,
+   "name": "تبریز",
+   "levels": [
+    51,
+    66
+   ],
+   "tagline": "شهر اولین‌ها؛ بازارش دنیا را زیر یک سقف دارد.",
+   "color": "#D95A4E",
+   "color2": "#2FA8A0",
+   "bg": "city_tabriz",
+   "music": "tabriz",
+   "motif": "گنبد و بازار"
+  },
+  {
+   "id": 4,
+   "name": "رشت",
+   "levels": [
+    67,
+    83
+   ],
+   "tagline": "دل سبز گیلان؛ بارانش هم میانه و مهربان است.",
+   "color": "#4E9A51",
+   "color2": "#E8862E",
+   "bg": "city_rasht",
+   "music": "rasht",
+   "motif": "باران و شالیزار"
+  },
+  {
+   "id": 5,
+   "name": "مشهد",
+   "levels": [
+    84,
+    100
+   ],
+   "tagline": "آرامشِ طواف؛ شهر نذری‌ها و مهمانی‌های بزرگ.",
+   "color": "#C9932B",
+   "color2": "#4E9A51",
+   "bg": "city_mashhad",
+   "music": "mashhad",
+   "motif": "گنبد طلایی"
+  }
+ ]
+}

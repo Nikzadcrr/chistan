@@ -1,0 +1,59 @@
+{
+ "consumables": [
+  {
+   "id": "hint",
+   "name": "سرنخ پدربزرگ",
+   "desc": "حرف اول یک کلمه پنهان را نشان می‌دهد",
+   "price": 30,
+   "icon": "bulb"
+  },
+  {
+   "id": "reveal",
+   "name": "آشکارساز",
+   "desc": "یک خانه از جدول را کامل آشکار می‌کند",
+   "price": 60,
+   "icon": "reveal"
+  },
+  {
+   "id": "time",
+   "name": "چای تازه دم",
+   "desc": "در چالش روزانه ۳۰ ثانیه وقت اضافه می‌دهد",
+   "price": 70,
+   "icon": "tea"
+  }
+ ],
+ "themes": [
+  {
+   "id": "cream",
+   "name": "کرم کلاسیک",
+   "price": 0,
+   "accent": "#E8862E",
+   "accent2": "#4E9A51",
+   "bg": "#FBF3E4"
+  },
+  {
+   "id": "turquoise",
+   "name": "فیروزه اصفهان",
+   "price": 300,
+   "accent": "#2FA8A0",
+   "accent2": "#E8862E",
+   "bg": "#F0F7F4"
+  },
+  {
+   "id": "wood",
+   "name": "چوب و پارچه",
+   "price": 300,
+   "accent": "#8C5A38",
+   "accent2": "#C9932B",
+   "bg": "#F7EEDD"
+  },
+  {
+   "id": "rose",
+   "name": "گل‌محمدی",
+   "price": 400,
+   "accent": "#D95A7E",
+   "accent2": "#4E9A51",
+   "bg": "#FBF0EE"
+  }
+ ]
+}
